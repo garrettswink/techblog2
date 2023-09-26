@@ -4,23 +4,7 @@ const withAuth = require('../utils/auth');
 
 
 
-//   Render Signup
-router.get("/signup", (req, res) => {
-    if (req.session.logged_in) {
-        res.redirect("/dashboard");
-        return;
-    }
-    res.render("signup");
-});
 
-// Render Login
-router.get("/login", (req, res) => {
-    if (req.session.logged_in) {
-        res.redirect("/dashboard");
-        return;
-    }
-    res.render("login");
-});
 
 // Render Homepage with All Posts
 router.get('/', async (req, res) => {
@@ -114,6 +98,24 @@ router.get("/editpost/:id", async (req, res) => {
     } catch (err) {
         res.status(500).json(err);
     }
+});
+
+//   Render Signup
+router.get("/signup", (req, res) => {
+    if (req.session.logged_in) {
+        res.redirect("/dashboard");
+        return;
+    }
+    res.render("signup");
+});
+
+// Render Login
+router.get("/login", (req, res) => {
+    if (req.session.logged_in) {
+        res.redirect("/dashboard");
+        return;
+    }
+    res.render("login");
 });
 
 // module exports router

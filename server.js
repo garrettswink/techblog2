@@ -28,10 +28,14 @@ const sess = {
 };
 
 // Set up
-app.use(routes);
-app.use(session(sess));
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
+
+app.use(session(sess));
+
+app.use(routes);
+
+
 app.use(express.static(path.join(__dirname, 'public')));
 app.use(
     session({

@@ -27,6 +27,8 @@ router.post("/signup", async (req, res) => {
 // Login
 router.post("/login", async (req, res) => {
   try {
+    console.log(req.body.username);
+
     const userData = await User.findOne({ where: { username: req.body.username } });
 
     if (!userData) {
@@ -55,6 +57,7 @@ router.post("/login", async (req, res) => {
     });
   } catch (err) {
     res.status(400).json(err);
+    console.log(err);
   }
 });
 

@@ -6,7 +6,7 @@ Created by Garrett Swink
 - [Acceptance Criteria](#acceptance-criteria)
 - [Dependencies](#dependencies)
 - [Installation](#installation)
-- [App Demos](#app-demos)
+- [App Demo](#app-demo)
 - [License](#license)
 
 ## User Story

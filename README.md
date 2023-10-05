@@ -63,10 +63,7 @@ THEN I am able to view posts and comments but I am prompted to log in again befo
 ## Demo
 
 ### Signup, Login, Logout
-
-
-
-
+![Untitled design](https://github.com/garrettswink/techblog2/assets/22800055/dd85f4ec-5d43-46fb-a1e4-02ce8899f27a)
 
 ### Create, Edit, Delete, Comment
 

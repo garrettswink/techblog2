@@ -66,6 +66,7 @@ THEN I am able to view posts and comments but I am prompted to log in again befo
 ![Untitled design](https://github.com/garrettswink/techblog2/assets/22800055/dd85f4ec-5d43-46fb-a1e4-02ce8899f27a)
 
 ### Create, Edit, Delete, Comment
+![Untitled design](https://github.com/garrettswink/techblog2/assets/22800055/23b5259c-2334-4566-b9e1-7d8175507fe3)
 
 ## License
 This project is registered under the [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) license.

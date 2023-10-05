@@ -61,5 +61,16 @@ WHEN I am idle on the site for more than a set time
 THEN I am able to view posts and comments but I am prompted to log in again before I can add, update, or delete posts
 
 ## Demo
-Youtube Link: 
 
+### Signup, Login, Logout
+
+
+
+
+
+### Create, Edit, Delete, Comment
+
+## License
+This project is registered under the [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) license.
+
+For more information on this license, please visit https://opensource.org/licenses/MIT.

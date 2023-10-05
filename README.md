@@ -1,6 +1,14 @@
 # Tech Blog
 Created by Garrett Swink
 
+## Table of Contents
+- [User Story](#user-story)
+- [Acceptance Criteria](#acceptance-criteria)
+- [Dependencies](#dependencies)
+- [Installation](#installation)
+- [Demos](#demos)
+- [License](#license)
+
 ## User Story
 AS A developer who writes about tech:
 - I WANT a CMS-style blog site
@@ -60,12 +68,12 @@ THEN I am signed out of the site
 WHEN I am idle on the site for more than a set time
 THEN I am able to view posts and comments but I am prompted to log in again before I can add, update, or delete posts
 
-## App Dependencies
+## Dependencies
 - Node Express
 - Node Handlebars
 - MySQL
 
-## Installation Instructions
+## Installation
 - Open Terminal
 - Input Command: npm i
 - Login to MySql
@@ -78,9 +86,7 @@ THEN I am able to view posts and comments but I am prompted to log in again befo
 
 ### Installation Demo
 
-
-
-## App Demo
+## Demos
 
 ### Signup, Login, Logout
 ![Untitled design](https://github.com/garrettswink/techblog2/assets/22800055/dd85f4ec-5d43-46fb-a1e4-02ce8899f27a)

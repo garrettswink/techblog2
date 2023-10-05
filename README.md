@@ -60,7 +60,27 @@ THEN I am signed out of the site
 WHEN I am idle on the site for more than a set time
 THEN I am able to view posts and comments but I am prompted to log in again before I can add, update, or delete posts
 
-## Demo
+## App Dependencies
+- Node Express
+- Node Handlebars
+- MySQL
+
+## Installation Instructions
+- Open Terminal
+- Input Command: npm i
+- Login to MySql
+- Input Command: source db/schema.sql
+- Quit MySql
+- Input Command: npm run seed
+- Input Command: nodemon sever.js
+- Open Chrome Browswer
+- Input Address: http://localhost:3001
+
+### Installation Demo
+
+
+
+## App Demo
 
 ### Signup, Login, Logout
 ![Untitled design](https://github.com/garrettswink/techblog2/assets/22800055/dd85f4ec-5d43-46fb-a1e4-02ce8899f27a)

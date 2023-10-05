@@ -77,8 +77,7 @@ THEN I am able to view posts and comments but I am prompted to log in again befo
 - Input Address: http://localhost:3001
 
 ### Installation Demo
-
-
+![Untitled design (2)](https://github.com/garrettswink/techblog2/assets/22800055/39f0559c-1a3f-40fb-8228-dc14c0fdb50f)
 
 ## App Demo
 
